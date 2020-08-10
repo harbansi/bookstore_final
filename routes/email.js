@@ -13,7 +13,7 @@ const sendMail = (name, email, title, message, callback) => {
       from: email,
       to: 'mvohra024@gmail.com',
       subject: title,
-      text: `Hello, This is ${name} and my Email:${email}. Message: ${message}`
+      text: `Hello, This is ${name} & my Email:${email}  Message: ${message}`
     }; 
     
     transporter.sendMail(mailOptions , function(err, data) {
