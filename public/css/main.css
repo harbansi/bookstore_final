@@ -338,7 +338,7 @@ h2{
 	display: block;
 	float: right;
 	padding-right: 20px;
-	margin-top: 15px;
+	margin-top: 5px;
 }
 
 .prduct-desc h2{
@@ -348,26 +348,26 @@ h2{
 	margin: 0;
 	text-align: left;
 	color: #000;
-	padding-bottom: 8px;
+	padding-bottom: 5px;
 
 }
 .prduct-desc h5{
 	color: #2a2a2a;
 	font-size: 16.5px;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
 	font-weight: lighter;
 
 }
 .price{
 	width: 100%;
 	float: left;
-	padding-bottom: 4px;
+	padding-bottom: 3px;
 
 }
 
 .price .old-price{
 	color: #0F222D;
-	margin-top: 4px;
+	margin-top: 3px;
 	font-size: 23px;
 	float: left;
 	padding-right: 8px;
@@ -384,15 +384,10 @@ h2{
 	font-weight: bold;
 	margin-right: 7px;
 }
-#quantity{
-	font-size: 15px;
-	width: 5rem;
-	margin-bottom: 8px;
-}
 .prduct-desc .btn1{
     background-color: #0F222D;
 	color: #fff;
-    margin:10px 0 15px;
+    margin:10px 0 8px;
 }
 .btn1 .icon1{
 	padding-right: 5px;
