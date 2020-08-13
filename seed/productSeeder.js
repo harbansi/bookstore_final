@@ -391,7 +391,7 @@ const products = [
         title: "Waxing for Dental Students",
         description: "When dental students are first taught how to wax teeth, they need clear instructions with logical steps and plenty of illustrations. ... The author covers the basics of wax instrumentation and addition, but the bulk of the book details the steps for waxing incisors, canines, premolars, and molars.",
         price: 700.00,
-        image: "medical/m3.jpg",
+        image: "../images/medical/m3.jpg",
         author: "Rowide Abdalla",
         language: "English",
         modal_no: 34,
@@ -589,7 +589,7 @@ const products = [
 
     }), new Product({
         product_id: 602,
-        title: "../images/Business Advice",
+        title: "Business Advice",
         description: "Basic idea about business",
         price: 430.00,
         image: "../images/business/b2.jpg",

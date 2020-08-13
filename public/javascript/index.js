@@ -1,5 +1,5 @@
 
-
+//back to top button 
 const backToTopButton=document.querySelector("#toTop");
 
 window.addEventListener("scroll",scrollFunction);
@@ -69,9 +69,7 @@ window.onclick = function(event) {
     }
 }
 
-
-
-
+//back to same position after clicking anyu button 
 window.addEventListener('scroll', function() {
   localStorage.setItem('scrollPosition', window.scrollY);
 }, false);
