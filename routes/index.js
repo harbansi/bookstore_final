@@ -23,11 +23,9 @@ router.get('/', function (req, res) {
 
 // for add to cart
 router.get("/add-to-cart/:id", function (req, res) {
-  console.log(req.session.current_url);
   
   const productId = req.params.id;
   const cart = new Cart(req.session.cart ? req.session.cart : { items: {} });
-  var fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
 
   Product.findById(productId, function (err, product) {
     if (err) {
